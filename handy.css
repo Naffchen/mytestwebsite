@@ -1,0 +1,72 @@
+.form-wrapper {
+  max-width: 430px;
+  margin: 30px auto;
+  padding: 0;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+}
+form {
+  padding: 20px 40px ;
+}
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(13, 40px) 100px 70px ;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+label {
+  justify-self: left;
+  align-self: center;
+  grid-column: 1;
+  margin: 15px 0 0 0;
+}
+input {
+  grid-column: 1;
+  max-width: 346px;
+}
+.gander-box {
+  justify-self: left;
+  align-self: center;
+  grid-row: 8;
+  grid-column: 1;
+  display: flex;
+} 
+.male-box{
+  margin: 0 15px 0 0;
+}
+
+label[for="birthplace"]{
+  grid-row: 9;
+}
+select{
+  grid-row: 10;
+  justify-self: left;
+  padding-right: 10px;
+  width: 130px;
+}
+label[for="phone-number"]{
+  grid-row: 11;
+}
+input[type="number"]{
+  grid-row: 12;
+}
+label[for="self-introduction"]{
+  grid-row: 13;
+}
+textarea {
+  grid-row: 14;
+}
+button {
+  height: 50px;
+  padding: 10px 0;
+  margin: 10px 0 0 0 ;
+  width: 100px;
+  grid-row: 15;
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+
